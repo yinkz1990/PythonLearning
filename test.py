@@ -1,11 +1,11 @@
 import unittest
-import main
+import randomgame
 
 
 class TestMain(unittest.TestCase):
     def test_do_stuff(self):
         test_param = 10
-        result = main.do_stuff(test_param)
+        result = randomgame.thegame()
         self.assertEqual(result, 15)
 
 

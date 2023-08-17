@@ -27,7 +27,8 @@ def thegame():
         try:
             if count < 10:
                 if number == random_number:
-                    return f'Great work!!!! \nThe number is thesame with the random number \n The number of Trail is {count}'
+                    print(
+                        f'Great work!!!! \n The number is thesame with the random number \n The number of Trail is {count}')
                     break
                 else:
                     count += 1
