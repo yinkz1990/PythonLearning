@@ -13,6 +13,6 @@ with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
     smtp.ehlo()  # Identify yourself to an ESMTP server using EHLO
     smtp.starttls()  # Put the SMTP connection in TLS (Transport Layer Security) mode
     # Sender's email ID and password
-    smtp.login('olayinkaidumu@gmail.com', 'ffwrerlwckobckxc')
+    smtp.login('olayinkaidumu@gmail.com', 'password')
     smtp.send_message(email)
     print('Check your email ;)')

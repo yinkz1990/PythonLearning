@@ -17,6 +17,6 @@ email.set_content(html.substitute({'name': 'TinTin'}), 'html')
 with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
     smtp.ehlo()
     smtp.starttls()
-    smtp.login('olayinka.idumu@gmail.com', 'ffwrerlwckobckxc')
+    smtp.login('olayinka.idumu@gmail.com', '')
     smtp.send_message(email)
     print('sent to the client')
